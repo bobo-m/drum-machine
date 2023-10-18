@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: 'Gabarito', cursive;
+    font-family: 'Outfit', sans-serif;
+}
+#root{
+    margin:0;
+    padding:0;
+    height:100vh;
+    width: 100%;
+}
+#drum-machine{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pad-bank{
+    width: 20%;
+    height: 20vw;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:5%;
+}
+.drum-pad{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10%;
+    font-size: 150%;
+}
+#display{
+    margin:2% 0;
+    font-size: 150%;
+}
